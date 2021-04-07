@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-int main()
+void showRemarks(char grade)
 {
-  char grade;
-  printf("Please enter your grade!: \n");
-  scanf("%c", &grade);
   switch (grade)
   {
   case 'A':
@@ -28,4 +25,13 @@ int main()
   default:
     printf("Show your grades to MUSK cause he deals with martians\n");
   }
+}
+
+int main()
+{
+  char grade;
+  printf("Please enter your grade!: \n");
+  scanf("%c", &grade);
+  showRemarks(grade);
+  return 0;
 }
