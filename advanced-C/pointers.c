@@ -5,7 +5,6 @@ int main()
   int slices = 15;
 
   int *p = &slices; // pointer
-
   printf("Before changing the value of the pointer: %i \n", slices);
   *p = 10;
   printf("After changing the value of the pointer: %i \n", slices);
