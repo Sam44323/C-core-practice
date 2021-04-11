@@ -4,8 +4,7 @@ int main()
 {
   int slices = 15;
 
-  // creating a pointer
-  int *p = &slices;
+  int *p = &slices; // pointer creation
 
   printf("Before changing the value of the pointer: %i \n", slices);
   *p = 10;
